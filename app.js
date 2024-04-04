@@ -37,8 +37,8 @@ function createproducts(product){
         modal.querySelector("img").src = product.image;
         modal.querySelector("h2").textContent = product.title;
         modal.querySelector("p").textContent = product.description;
-        modal.querySelector("h3").textContent = 'Categoría: ${product.category}';
-        modal.querySelector("h4").textContent = 'Precio: ${product.price}';
+        modal.querySelector("h3").textContent = `Categoría: ${product.category}`;
+        modal.querySelector("h4").textContent = `Precio: ${product.price}`;
         modal.style.display = "block";
       });
     
